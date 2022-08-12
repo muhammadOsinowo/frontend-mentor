@@ -1,0 +1,90 @@
+body {
+    font-family: "Overpass";
+    background: hsl(216, 12%, 8%);
+    color: #fff;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+/* button hover state*/
+.btn-container button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+/*active state*/
+.btn-container button:focus{
+    background-color: hsl(25, 97%, 59%);
+    color: #fff;
+}
+
+
+.card-container{
+    padding: 10px;
+}
+.btn-container button{
+    padding:15px;
+    height:40px;
+    border-radius: 50% ;
+    border: none;
+    background: hsl(212, 17%, 20%);
+    outline: none;
+    margin: 5px;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition: 0.3sec;
+
+}
+
+/* Hover state*/
+
+button.submit-btn:hover{
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+     
+}
+
+/* active state*/
+
+ button.submit-btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3sec;
+}
+
+
+.card-header img{
+    padding: 10px;
+    background: hsl(212, 17%, 20%);
+    border-radius: 50%;    
+}
+
+.card-body{
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+
+.hide{
+    display: none;
+}
